@@ -46,6 +46,12 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
+## How to test
+
+```bash
+pytest -q
+```
+
 ## Notes
 
 - The app pulls live data from TheMealDB, so it needs internet access when running.
